@@ -1,7 +1,7 @@
 # Polymer-Shopping
 ##### This is a Sample Polymer Website written in HTML and CSS3.
 -------------------------------------------------------------------------------
-**TO VIEW THE LIVE DEMO**: Click on [PolymerShopping(https://polymer-shopping.firebaseapp.com/)
+**TO VIEW THE LIVE DEMO**: Click on [PolymerShopping](https://polymer-shopping.firebaseapp.com/)
 
 ### Getting Started
 ###### These instructions will get you a copy of the project up and running on your local machine.
