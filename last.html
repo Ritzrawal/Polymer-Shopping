@@ -1,0 +1,210 @@
+<html><head><title>Sample Project</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body><header>
+	<div class="top_view">
+		<h1 style="
+    font-size: 20px;
+    font-family: sans-serif;
+">SHOP</h1>
+
+		
+	</div>
+
+
+<div class="top_nav"> 
+	<a class="active" href="#" style="
+    text-decoration:  none;
+    font-size: 15px;
+">Men's Outerwear&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	<a href="#" style="
+    text-decoration: none;
+    font-size:  15px;
+">Ladies Outerwear&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="#" style="
+    text-decoration: none;
+    font-size:  15px;
+">Men's T-Shirts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	<a href="#" style="
+    text-decoration: none;
+    font-size:  15px;
+">Ladies T-Shirts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</div>
+
+
+<div clas="container" style="
+    display:  flex;
+    flex-wrap:  wrap;
+">
+	<div class="image_view">
+		<img src="https://shop.polymer-project.org/es6-unbundled/data/images/10-15068A.jpg" alt="click to view" style="
+    /* padding-top: 40px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    display:  flex;
+    /* width:  50%; */
+    width:  100%;
+    height:  auto;
+    flex-wrap: nowrap;
+">
+	</div>
+	<div class="description" style="
+    /* width:  100%; */
+    /* display:  flex; */
+    flex-wrap: nowrap;
+    float:  right;
+    height:  auto;
+">
+		<h2 class="clother_name" style="
+    font-size:  20px;
+">Men's Tech Shell Full-Zip</h2>
+		<div class="price_tag">
+			<h3 id="price" style="
+    font-size: 20px;
+">$50.2</h3>
+		</div><br>
+		<div class="gender_quantity">
+			
+				<label id="size_label" prefix="" style="
+    font-weight:  bold;
+    display:  block;
+    width: 75;
+    float:  left;
+    font-size:  15px;
+">Size</label>
+			          <select id="size_select" aria-labelledby="size_label" style="
+    width: 150px;
+">
+				              <option value="XS">XS</option>
+				              <option value="S">S</option>
+				              <option value="M" selected="">M</option>
+				              <option value="L">L</option>
+				              <option value="XL">XL</option>
+			          </select>
+		    <br>
+		    
+			    <label id="quantity_label" prefix="" style="
+    font-weight:  bold;
+    display:  block;
+    width: 75;
+    float:  left;
+    font-size: 15px;
+">Quantity</label>
+			          <select id="quantity-select" aria-labelledby="quantity_label" style="
+    font-weight:  bold;
+    display:  block;
+    width:  150px;
+    float:  left;
+">
+				              <option value="1" selected="">1</option>
+				              <option value="2">2</option>
+				              <option value="3">3</option>
+				              <option value="4">4</option>
+				              <option value="5">5</option>
+			          </select>
+		    
+		</div>
+		<div class="clothes_description">
+			<h5 style="
+    padding-top: 25px;
+    font-size: 15px;
+">Description</h5>
+			<p id="desc" style="
+    font-size:  15px;
+    font-style: normal;
+">A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.&nbsp;
+			</p><div>
+				<br>
+			</div>
+
+			<div class="features">Features:</div>
+			<div>
+				<ul style="
+    font-size: 15px;
+">
+					<li>100% polyester.</li>
+					<li>Smooth, technical front with textured mesh back.</li>
+					<li>Drawstring bottom for adjustable fit.</li>
+					<li>Raglan sleeves.</li>
+					<li>Available in forest green with the white Google logo embroidered at left chest.</li>
+				</ul>
+			</div>
+		   <p></p>
+	    </div> 
+	    <shop-button responsive="" style="
+    /* background:  black; */
+    /* background-color:  black; */
+    box-shadow: whitesmoke;
+">
+	    	<button aria-label="Add this item to cart" style="
+    display:  flex;
+    /* flex-wrap:  nowrap; */
+    font-size: 20px;
+    font-size:  20px;
+">Add to Cart</button>
+	    </shop-button>
+	</div>
+</div>
+
+
+<footer style="
+    padding-top: 80px;
+    display:  flex;
+    justify-content:  center;
+    flex-wrap:  wrap;
+">
+<div style="
+    display: flex;
+    justify-content:  center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top:  10px;
+    font-size:  15px;
+">
+	Made by Polymer
+</div>
+	<div class="demo-label" style="/* display: inline-flex; *//* padding-top:  10px; *//* justify-content: center; *//* padding: 50px; */background-color: green;color: white;padding:  10px;font-size: 20px;font-size:  20px;">Demo Only</div>
+</footer>
+
+
+
+
+
+
+<style>
+.top_view{
+	display: flex;
+	justify-content: center;
+}
+.top_nav{
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	background-color: white;
+	font-size: 15px;
+}
+.top_nav a{
+	color:black;
+    padding-bottom: 10px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.image_view{
+	height: 100px;
+	width: 50%;
+}
+.image_view img{
+	height: 500px;
+	width: 100%;
+}
+.description{
+	width: 50%;
+	order: 1;
+}
+
+
+
+
+</style></header></body></html>
